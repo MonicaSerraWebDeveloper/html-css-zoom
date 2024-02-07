@@ -8,3 +8,50 @@
     box-sizing: border-box;
 }
 
+/*-------------------
+        GENERAL
+---------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+}
+
+/*-------------------
+        LAYOUT
+---------------------*/
+
+header {
+    height: 38px;
+    padding: 4px 0;
+}
+
+main {
+    height: calc(100vh - 120px);
+}
+
+footer {
+    height: 82px;
+    background-color: #222;
+}
+
+/*-------------------
+        HEADER
+---------------------*/
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: #4a4a4a;
+    border: none;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
