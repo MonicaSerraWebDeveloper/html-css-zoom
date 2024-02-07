@@ -23,11 +23,15 @@ body {
 
 header {
     height: 38px;
-    padding: 4px 0;
+    padding: 8px 0 4px 0;
 }
 
 main {
     height: calc(100vh - 120px);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    overflow-y: auto;
 }
 
 footer {
@@ -39,7 +43,7 @@ footer {
         HEADER
 ---------------------*/
 
-.container {
+.container-header {
     display: flex;
     justify-content: flex-end;
 }
@@ -55,3 +59,40 @@ footer {
     cursor: pointer;
 }
 
+/*-------------------
+        MAIN
+---------------------*/
+.container-main {
+    width: calc(100vw - 10%);
+    margin: 38px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.user-container {
+    position: relative;
+    height: 150px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+
+.name-user {
+    background-color: rgba(97, 108, 120, 0.4);
+    display: inline-block;
+    padding: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*-------------------
+        FOOTER
+---------------------*/
