@@ -97,12 +97,12 @@ footer {
 }
 .user-container {
     position: relative;
-    height: 150px;
 }
 
 img {
     width: 200px;
     height: 150px;
+    display: block;
 }
 
 
